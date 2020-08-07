@@ -1,134 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <link rel="icon" href="/public/images/hannahsmith.jpg">
-    <link rel="icon" href="/public/images/HannahSmith.png">
-    <link rel="stylesheet" href= "/public/css/style.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <title>Document</title>
-</head>
-<body>
-  <style>
-    .footer {
-    background-color: whitesmoke;
-    padding: 7px;
-}
 
-.hero.has-background{
-    position: relative;
-    overflow: hidden; 
-}
-.hero-background {
-    position: absolute;
-    object-fit: cover;
-    object-position: center center;
-    width: 100%;
-    height: 100%;
-    }
-.hero-background.is-transparent {
-    opacity: 1;
-    }
-.button{
-    opacity: 0.3;
-}
-  </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <link rel="icon" href="/public/images/hannahsmith.jpg">
+  <link rel="icon" href="images/HannahSmith.png">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!-- <script> src= "js/script.js" </script> -->
+  <!-- <link rel="stylesheet" href="/public/" media="screen" title="no title"> -->
+  <title>Hannah Smith</title>
+</head>
+
+<body>
+  <div>
     <div class="hero has-background is-fullheight">
-      <img alt="National Parks" class="hero-background is-transparent" src="https://www.nationalparks.org/sites/default/files/styles/wysiwyg_full_1x/public/npf_may2020apostleislandns_digitaldownload.png?itok=IR_G26BA" />
-        <!-- Hero head: will stick at the top -->
-        <div class="hero-head">
-          <header class="navbar">
-            <div class="container">
-              <div class="navbar-brand">
-                <a class="navbar-item" href = "https://www.google.com">
-                  <img src="/public/images/hannahsmith.jpg" alt="Logo">
-                </a>
-                <span class="navbar-burger burger" data-target="navbarMenuHeroC">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </span>
-              </div>
-              <div id="navbarMenuHeroC" class="navbar-menu">
-                <div class="navbar-end">
-                  <nav class = "tabs">
-                    <div class="container">
+      <img alt="National Parks" class="hero-background is-transparent"
+        src="https://cdn.funcheap.com/wp-content/uploads/2015/01/muir-woods-1.jpg" />
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item logo" href="bulma.html">
+                <img src="images/HannahSmith.png" alt="Logo">
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+                <nav class="tabs">
+                  <div class="container">
                     <ul>
-                      <li><a href="https://www.facebook.com">
-                        <span class="icon"><i class="far fa-address-card"></i></span>
-                      <span>Contact</span>
-                      <!-- </span> -->
-                      </a></li>
-                      <li><a href="https://www.linkedin.com/in/hannah-patience-smith/" target = "_blank">
-                        <span class="icon"><i class="fab fa-linkedin"></i></span>
-                      <!-- </span> -->
-                      <span>LinkedIn</span>
-                      </a></li>
-                      <li><a href="https://github.com/hannahpsmith1" target= "_blank">
-                        <span class="icon"><i class="fab fa-github"></i></span>
-                      <!-- </span> -->
-                      <span>Github</span>
-                      </a></li>
+                      <li class="home"><a>Home</a></li>
+                      <li><a>About Me</a></li>
+                      <li><a id="myAnc2">Click Here</a></li>
+                      <li><a>Skills</a></li>
+                      <li><a>Employment</a></li>
                     </ul>
                   </div>
                 </nav>
-              </div>   
-
-
-
-                  <!-- <a class="navbar-item is-active">
-                    Home
-                  </a>
-                  <a class="navbar-item">
-                    Examples
-                  </a>
-                  <a class="navbar-item">
-                    Documentation
-                  </a>
-                  <span class="navbar-item">
-                    <a class="button is-success is-inverted">
-                      <span class="icon">
-                        <i class="fab fa-github"></i>
-                      </span>
-                      <span>Download</span>
-                    </a>
-                  </span>
-                </div> -->
               </div>
             </div>
-          </header>
-        </div>
-      
-        <!-- Hero content: will be in the middle -->
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <!-- <h1 class="title">
-              Title
-            </h1>
-            <h2 class="subtitle">
-              Subtitle
-            </h2> -->
           </div>
+        </header>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <div id="textDiv"></div>
+          <h1>Welcome</h1>
         </div>
-      
-        <!-- Hero footer: will stick at the bottom -->
-        <div class="hero-foot">
-          <nav class="tabs is-boxed is-fullwidth">
-            <div class="container">
-              <ul>
-                <li class="is-active"><a>Overview</a></li>
-                <li><a>Modifiers</a></li>
-                <li><a>Grid</a></li>
-                <li><a>Elements</a></li>
-                <li><a>Components</a></li>
-                <li><a>Layout</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
+      </div>
     </div>
-    
+  </div>
+  <script> src = "js/script.js" </script>
 </body>
+
 </html>

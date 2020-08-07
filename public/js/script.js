@@ -78,8 +78,28 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  $("#aboutme").click(function () {
+    $("#textArea").load("index.html");
+  });
+});
+
+$(document).ready(function () {
+  $("#projects").click(function () {
+    $("#textArea").load("partialproj.html");
+  });
+});
+
+$(document).ready(function () {
+  $("#contact").click(function () {
+    $("#textArea").load("contact.html");
+  });
+});
+
 // $(document).ready(function(){
 //   $("#myAnc2").click(function() { 
 //     $("#heloo").load("partial.html");
 //   }); 
 //   }); 
+
+
